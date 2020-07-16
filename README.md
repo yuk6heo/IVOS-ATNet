@@ -1,7 +1,10 @@
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
 # Interactive Video Object Segmentation Using Global and Local Transfer Modules
 #### Yuk Heo, Yeong Jun Koh, Chang-Su Kim
+
 ![IVOS Image](Overall_Network.png)
+
+[Project page](https://openreview.net/forum?id=bo_lWt_aA)
 
 Pytorch implementation of [ECCV2020 paper](https://openreview.net/forum?id=bo_lWt_aA) in this page:
 
@@ -14,6 +17,23 @@ Pytorch implementation of [ECCV2020 paper](https://openreview.net/forum?id=bo_lW
 - [davisinteractive 1.0.4](https://github.com/albertomontesg/davis-interactive)
 - [corrlation package](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) of [FlowNet2](https://github.com/NVIDIA/flownet2-pytorch)
 - numpy, cv2, PtQt5, and other general libraries of python3
+
+### Directory Structure
+ * `ROOT/libs`: library of utility files.
+
+ * `ROOT/networks` : network codes
+     - `correlation_package` : conserves GPU memory by appling the correlation package of FlowNet2
+     - `deeplab`: applies ASPP module in decoders, [[original code]](https://github.com/jfzhang95/pytorch-deeplab-xception/tree/master/modeling)
+     - `atnet.py`: consists A-Net and T-Net
+     - `ltm_transfer.py`: transfers previous segmentation with the local affinity of the local transfer module
+
+ * `ROOT/config`  : configurations
+ 
+ * `ROOT/eval_davisframework` : DAVIS2017 evaluation based on the [DAVIS framework](https://interactive.davischallenge.org/)
+ 
+ * `ROOT/eval_real-world` : DAVIS2016 real-world evaluation GUI, (to be opened)
+
+### Instruction
 
 
 
