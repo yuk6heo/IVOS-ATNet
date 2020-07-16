@@ -3,7 +3,7 @@
 #### Yuk Heo, Yeong Jun Koh, Chang-Su Kim
 ![IVOS Image](Overall_Network.png)
 
-Pytorch implementation lists of [ECCV2020 paper](https://openreview.net/forum?id=bo_lWt_aA) in the page
+Pytorch implementation of [ECCV2020 paper](https://openreview.net/forum?id=bo_lWt_aA) in this page:
 
 1. DAVIS2017 evaluation based on the [DAVIS framework](https://interactive.davischallenge.org/)
 2. DAVIS2016 real-world evaluation GUI
