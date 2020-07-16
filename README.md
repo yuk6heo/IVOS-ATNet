@@ -1,7 +1,7 @@
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
 # Interactive Video Object Segmentation Using Global and Local Transfer Modules
 #### Yuk Heo, Yeong Jun Koh, Chang-Su Kim
-![IVOS Image](https://mcl.korea.ac.kr/~nyeonghoshin/ICLR2020_KSLIM/Intro.PNG)
+![IVOS Image](Overall_Network.png)
 
 Pytorch implementation lists of [ECCV2020 paper](https://openreview.net/forum?id=bo_lWt_aA) in the page
 
