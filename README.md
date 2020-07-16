@@ -36,7 +36,7 @@ Our real-world evaluation demo is based on the GUI of [IPNet](https://github.com
 @Inproceedings{
 Oh2019IVOS,
 title={Fast User-Guided Video Object Segmentation by Interaction-and-Propagation Networks},
-author={Seoung Wug O and Joon-Young Lee and Seon Joo Kim},
+author={Seoung Wug Oh and Joon-Young Lee and Seon Joo Kim},
 booktitle={CVPR},
 year={2019},
 url={https://openaccess.thecvf.com/content_ICCV_2019/papers/Oh_Video_Object_Segmentation_Using_Space-Time_Memory_Networks_ICCV_2019_paper.pdf}
