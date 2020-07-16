@@ -31,7 +31,7 @@ Pytorch implementation of [ECCV2020 paper](https://openreview.net/forum?id=bo_lW
  
  * `ROOT/eval_davisframework` : DAVIS2017 evaluation based on the [DAVIS framework](https://interactive.davischallenge.org/)
  
- * `ROOT/eval_real-world` : DAVIS2016 real-world evaluation GUI, (to be opened)
+ * `ROOT/eval_real-world` : DAVIS2016 real-world evaluation GUI, (to be released)
 
 ### Instruction
 
