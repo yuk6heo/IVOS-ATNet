@@ -1,12 +1,12 @@
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
-## Interactive Video Object Segmentation Using Global and Local Transfer Modules
-
+# Interactive Video Object Segmentation Using Global and Local Transfer Modules
+#### Yuk Heo, Yeong Jun Koh, Chang-Su Kim
 ![IVOS Image](https://mcl.korea.ac.kr/~nyeonghoshin/ICLR2020_KSLIM/Intro.PNG)
 
-Pytorch implementation of [ECCV2020 paper](https://openreview.net/forum?id=bo_lWt_aA) (Yuk Heo, Yeong Jun Koh, Chang-Su Kim)
+Pytorch implementations of [ECCV2020 paper](https://openreview.net/forum?id=bo_lWt_aA) below.
 
-1. DAVIS2017 evaluation with [DAVIS framework](https://interactive.davischallenge.org/) and 2. DAVIS2016 real-world evaluation are implemented.
-
+1. DAVIS2017 evaluation based on the [DAVIS framework](https://interactive.davischallenge.org/)
+2. DAVIS2016 real-world evaluation
 
 ### Prerequisite
 - python 3.6
