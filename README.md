@@ -3,10 +3,10 @@
 #### Yuk Heo, Yeong Jun Koh, Chang-Su Kim
 ![IVOS Image](https://mcl.korea.ac.kr/~nyeonghoshin/ICLR2020_KSLIM/Intro.PNG)
 
-Pytorch implementations of [ECCV2020 paper](https://openreview.net/forum?id=bo_lWt_aA) below.
+Pytorch implementation lists of [ECCV2020 paper](https://openreview.net/forum?id=bo_lWt_aA) in the page
 
 1. DAVIS2017 evaluation based on the [DAVIS framework](https://interactive.davischallenge.org/)
-2. DAVIS2016 real-world evaluation
+2. DAVIS2016 real-world evaluation GUI
 
 ### Prerequisite
 - python 3.6
