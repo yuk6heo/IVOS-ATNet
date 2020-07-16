@@ -4,7 +4,7 @@
 
 ![IVOS Image](Overall_Network.png)
 
-[Project page](https://openreview.net/forum?id=bo_lWt_aA)
+[[Project page]](https://openreview.net/forum?id=bo_lWt_aA)
 
 Pytorch implementation of [ECCV2020 paper](https://openreview.net/forum?id=bo_lWt_aA) in this page:
 
