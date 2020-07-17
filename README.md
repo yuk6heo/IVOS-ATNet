@@ -5,8 +5,10 @@
 ![IVOS Image](Overall_Network.png)
 
 [[Project page]](https://openreview.net/forum?id=bo_lWt_aA)
+[[arXiv]](https://arxiv.org/abs/2007.08139)
 
-Pytorch implementation of [ECCV2020 paper](https://openreview.net/forum?id=bo_lWt_aA) in this page:
+Implementation of "Interactive Video Object Segmentation Using Global and Local Transfer Modules"
+Codes in this github:
 
 1. DAVIS2017 evaluation based on the [DAVIS framework](https://interactive.davischallenge.org/)
 2. DAVIS2016 real-world evaluation GUI
@@ -19,23 +21,36 @@ Pytorch implementation of [ECCV2020 paper](https://openreview.net/forum?id=bo_lW
 - numpy, cv2, PtQt5, and other general libraries of python3
 
 ### Directory Structure
- * `ROOT/libs`: library of utility files.
+ * `root/libs`: library of utility files.
 
- * `ROOT/networks` : network codes
+ * `root/networks` : network codes
      - `correlation_package` : conserves GPU memory by appling the correlation package of FlowNet2
      - `deeplab`: applies ASPP module in decoders, [[original code]](https://github.com/jfzhang95/pytorch-deeplab-xception/tree/master/modeling)
      - `atnet.py`: consists A-Net and T-Net
      - `ltm_transfer.py`: transfers previous segmentation with the local affinity of the local transfer module
 
- * `ROOT/config`  : configurations
+ * `root/config.py`  : configurations
  
- * `ROOT/eval_davisframework` : DAVIS2017 evaluation based on the [DAVIS framework](https://interactive.davischallenge.org/)
- 
- * `ROOT/eval_real-world` : DAVIS2016 real-world evaluation GUI, (to be released)
+ * `root/eval_davis-framework.py` : DAVIS2017 evaluation based on the [DAVIS framework](https://interactive.davischallenge.org/)
+  
+ * `root/eval_real-world.py` : DAVIS2016 real-world evaluation GUI (to be released)
 
 ### Instruction
 
+#### DAVIS2017 evaluation based on the DAVIS framework
 
+1. Edit `config.py` to set the directory of your DAVIS and the gpu ID.
+2. Build [corrlation package](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) of [FlowNet2](https://github.com/NVIDIA/flownet2-pytorch) by following their instruction
+3. Download our [network parameters](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) and place the file as `root/ATNet-ckpoint.pth`
+4. Run with 
+```
+cd IVOS_ATNet-master
+python eval_davis-framework.py
+```
+
+#### DAVIS2016 real-world evaluation GUI
+
+To be released
 
 ### Reference
 
