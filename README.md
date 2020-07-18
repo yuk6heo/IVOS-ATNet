@@ -41,7 +41,7 @@ Codes in this github:
 
 1. Edit `config.py` to set the directory of your DAVIS and the gpu ID.
 2. Build [corrlation package](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) of [FlowNet2](https://github.com/NVIDIA/flownet2-pytorch) by following their instruction
-3. Download our [network parameters](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) and place the file as `root/ATNet-ckpoint.pth`
+3. Download our [network parameters](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) and place the file as `root/ATNet-checkpoint.pth`
 4. Run with 
 ```
 cd IVOS_ATNet-master
