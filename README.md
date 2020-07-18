@@ -24,17 +24,17 @@ Codes in this github:
 ## Directory Structure
  * `root/libs`: library of utility files.
 
- * `root/networks` : network codes
+ * `root/networks` : network codes.
      - `correlation_package.zip` : conserves GPU memory by appling the correlation package of FlowNet2.
-     - `deeplab`: applies ASPP module in decoders, [[original code]](https://github.com/jfzhang95/pytorch-deeplab-xception/tree/master/modeling)
-     - `atnet.py`: consists A-Net and T-Net
-     - `ltm_transfer.py`: transfers previous segmentation with the local affinity of the local transfer module
+     - `deeplab`: applies ASPP module in decoders. [[original code]](https://github.com/jfzhang95/pytorch-deeplab-xception/tree/master/modeling)
+     - `atnet.py`: consists A-Net and T-Net.
+     - `ltm_transfer.py`: transfers previous segmentation with the local affinity of the local transfer module.
 
- * `root/config.py`  : configurations
+ * `root/config.py`  : configurations.
  
- * `root/eval_davis-framework.py` : DAVIS2017 evaluation based on the [DAVIS framework](https://interactive.davischallenge.org/)
+ * `root/eval_davis-framework.py` : DAVIS2017 evaluation based on the [DAVIS framework](https://interactive.davischallenge.org/).
   
- * `root/eval_real-world.py` : DAVIS2016 real-world evaluation GUI (to be released)
+ * `root/eval_real-world.py` : DAVIS2016 real-world evaluation GUI (to be released).
 
 ## Instruction
 
@@ -49,10 +49,10 @@ cd correlation_package
 rm -rf *_cuda.egg-info build dist __pycache__
 python3 setup.py install --user
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;If you have problems in this step, you can find more information in the [repository](https://github.com/NVIDIA/flownet2-pytorch)
+&nbsp;&nbsp;&nbsp;&nbsp;If you have problems in this step, you can find more information in the [repository](https://github.com/NVIDIA/flownet2-pytorch).
 
-3. Download our [network parameters](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) and place the file as `root/ATNet-checkpoint.pth`
-4. Run with `python3 eval_davis-framework.py`
+3. Download our [network parameters](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) and place the file as `root/ATNet-checkpoint.pth`.
+4. Run with `python3 eval_davis-framework.py`.
 
 ### DAVIS2016 real-world evaluation GUI
 
