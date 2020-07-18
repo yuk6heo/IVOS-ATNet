@@ -14,6 +14,7 @@ Codes in this github:
 2. DAVIS2016 real-world evaluation GUI
 
 ## Prerequisite
+- cuda 10.0
 - python 3.6
 - pytorch 1.2.0
 - [davisinteractive 1.0.4](https://github.com/albertomontesg/davis-interactive)
