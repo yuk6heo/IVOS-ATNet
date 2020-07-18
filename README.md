@@ -40,7 +40,7 @@ Codes in this github:
 #### DAVIS2017 evaluation based on the DAVIS framework
 
 1. Edit `config.py` to set the directory of your DAVIS and the gpu ID.
-2. Unzip and build [corrlation package](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) by
+2. Unzip and build [corrlation package](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) by 
 ```
 cd ./networks
 unzip correlation_package.zip
@@ -48,7 +48,7 @@ cd correlation_package
 rm -rf *_cuda.egg-info build dist __pycache__
 python3 setup.py install --user
 ```
-If you have problems in this step, you can find more information in the [repository](https://github.com/NVIDIA/flownet2-pytorch)
+&nbsp;&nbsp;If you have problems in this step, you can find more information in the [repository](https://github.com/NVIDIA/flownet2-pytorch)
 
 3. Download our [network parameters](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) and place the file as `root/ATNet-checkpoint.pth`
 4. Run with `python3 eval_davis-framework.py`
