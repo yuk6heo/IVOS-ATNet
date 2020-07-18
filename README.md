@@ -24,7 +24,7 @@ Codes in this github:
  * `root/libs`: library of utility files.
 
  * `root/networks` : network codes
-     - `correlation_package` : conserves GPU memory by appling the correlation package of FlowNet2
+     - `correlation_package.zip` : conserves GPU memory by appling the correlation package of FlowNet2.
      - `deeplab`: applies ASPP module in decoders, [[original code]](https://github.com/jfzhang95/pytorch-deeplab-xception/tree/master/modeling)
      - `atnet.py`: consists A-Net and T-Net
      - `ltm_transfer.py`: transfers previous segmentation with the local affinity of the local transfer module
@@ -40,13 +40,18 @@ Codes in this github:
 #### DAVIS2017 evaluation based on the DAVIS framework
 
 1. Edit `config.py` to set the directory of your DAVIS and the gpu ID.
-2. Build [corrlation package](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) of [FlowNet2](https://github.com/NVIDIA/flownet2-pytorch) by following their instruction
+2. Unzip and build [corrlation package](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) by
+```
+cd ./networks
+unzip correlation_package.zip
+cd correlation_package
+rm -rf *_cuda.egg-info build dist __pycache__
+python3 setup.py install --user
+```
+If you have problems in this step, you can find more information in the [repository](https://github.com/NVIDIA/flownet2-pytorch)
+
 3. Download our [network parameters](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) and place the file as `root/ATNet-checkpoint.pth`
-4. Run with 
-```
-cd IVOS_ATNet-master
-python eval_davis-framework.py
-```
+4. Run with `python3 eval_davis-framework.py`
 
 #### DAVIS2016 real-world evaluation GUI
 
