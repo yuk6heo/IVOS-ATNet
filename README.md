@@ -1,6 +1,6 @@
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
 # Interactive Video Object Segmentation Using Global and Local Transfer Modules
-#### Yuk Heo, Yeong Jun Koh, Chang-Su Kim
+### Yuk Heo, Yeong Jun Koh, Chang-Su Kim
 
 ![IVOS Image](Overall_Network.png)
 
@@ -13,14 +13,14 @@ Codes in this github:
 1. DAVIS2017 evaluation based on the [DAVIS framework](https://interactive.davischallenge.org/)
 2. DAVIS2016 real-world evaluation GUI
 
-### Prerequisite
+## Prerequisite
 - python 3.6
 - pytorch 1.2.0
 - [davisinteractive 1.0.4](https://github.com/albertomontesg/davis-interactive)
 - [corrlation package](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) of [FlowNet2](https://github.com/NVIDIA/flownet2-pytorch)
 - numpy, cv2, PtQt5, and other general libraries of python3
 
-### Directory Structure
+## Directory Structure
  * `root/libs`: library of utility files.
 
  * `root/networks` : network codes
@@ -35,9 +35,9 @@ Codes in this github:
   
  * `root/eval_real-world.py` : DAVIS2016 real-world evaluation GUI (to be released)
 
-### Instruction
+## Instruction
 
-#### DAVIS2017 evaluation based on the DAVIS framework
+### DAVIS2017 evaluation based on the DAVIS framework
 
 1. Edit `config.py` to set the directory of your DAVIS and the gpu ID.
 2. Unzip and build [corrlation package](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) by 
@@ -53,11 +53,11 @@ python3 setup.py install --user
 3. Download our [network parameters](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) and place the file as `root/ATNet-checkpoint.pth`
 4. Run with `python3 eval_davis-framework.py`
 
-#### DAVIS2016 real-world evaluation GUI
+### DAVIS2016 real-world evaluation GUI
 
 To be released
 
-### Reference
+## Reference
 
 Please cite our paper if the implementations are useful in your work:
 ```
