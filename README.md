@@ -48,7 +48,7 @@ cd correlation_package
 rm -rf *_cuda.egg-info build dist __pycache__
 python3 setup.py install --user
 ```
-&nbsp;&nbsp;If you have problems in this step, you can find more information in the [repository](https://github.com/NVIDIA/flownet2-pytorch)
+If you have problems in this step, you can find more information in the [repository](https://github.com/NVIDIA/flownet2-pytorch)
 
 3. Download our [network parameters](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) and place the file as `root/ATNet-checkpoint.pth`
 4. Run with `python3 eval_davis-framework.py`
