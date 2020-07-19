@@ -40,7 +40,7 @@ Codes in this github:
 
 ### DAVIS2017 evaluation based on the DAVIS framework
 
-1. Edit `config.py` to set the directory of your DAVIS and the gpu ID.
+1. Edit `config.py` to set the directory of your DAVIS2017 dataset and the gpu ID.
 2. Unzip and build [corrlation package](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) by 
 ```
 cd ./networks
