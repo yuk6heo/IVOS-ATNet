@@ -8,6 +8,7 @@
 [[arXiv]](https://arxiv.org/abs/2007.08139)
 
 Implementation of "Interactive Video Object Segmentation Using Global and Local Transfer Modules"
+
 Codes in this github:
 
 1. DAVIS2017 evaluation based on the [DAVIS framework](https://interactive.davischallenge.org/)
