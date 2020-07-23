@@ -52,7 +52,7 @@ python3 setup.py install --user
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;If you have problems in this step, you can find more information in the [repository](https://github.com/NVIDIA/flownet2-pytorch).
 
-3. Download our [network parameters](https://github.com/NVIDIA/flownet2-pytorch/tree/master/networks/correlation_package) and place the file as `root/ATNet-checkpoint.pth`.
+3. Download our [network parameters](https://drive.google.com/file/d/1tQQKA9o9Wui1cxZTh85QdkpmksyhI0Xl/view?usp=sharing) and place the file as `root/ATNet-checkpoint.pth`.
 4. Run with `python3 eval_davis-framework.py`.
 
 ### DAVIS2016 real-world evaluation GUI
