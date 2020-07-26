@@ -4,7 +4,7 @@
 
 ![IVOS Image](Overall_Network.png)
 
-[[Project page]](https://openreview.net/forum?id=bo_lWt_aA)
+[[Project page]](http://mcl.korea.ac.kr/yukheo_eccv2020/)
 [[arXiv]](https://arxiv.org/abs/2007.08139)
 
 Implementation of "Interactive Video Object Segmentation Using Global and Local Transfer Modules"
