@@ -7,7 +7,7 @@
 [[Project page]](http://mcl.korea.ac.kr/yukheo_eccv2020/)
 [[arXiv]](https://arxiv.org/abs/2007.08139)
 
-Implementation of "Interactive Video Object Segmentation Using Global and Local Transfer Modules"
+Implementation of ECCV2020 paper, "Interactive Video Object Segmentation Using Global and Local Transfer Modules"
 
 Codes in this github:
 
