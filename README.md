@@ -2,7 +2,7 @@
 # Interactive Video Object Segmentation Using Global and Local Transfer Modules
 ### Yuk Heo, Yeong Jun Koh, Chang-Su Kim
 
-![IVOS Image](Overall_Network.png)
+<img src = "Overall_Network.png" width="80%" height="80%">
 
 [[Project page]](http://mcl.korea.ac.kr/yukheo_eccv2020/)
 [[arXiv]](https://arxiv.org/abs/2007.08139)
