@@ -57,7 +57,7 @@ python3 setup.py install --user
 
 ### DAVIS2016 real-world evaluation GUI
 
-Multi-object GUI (including DAVIS2016 and DAVIS2017) is available at our github page for CVPR2021 paper, [GIS-RAmap](https://github.com/yuk6heo/GIS-RAmap)
+Multi-object GUI (for DAVIS2017) is available at our github page, [GUI-iVOS_and_GIS](https://github.com/yuk6heo/GUI-iVOS_and_GIS)
 
 ## Reference
 
