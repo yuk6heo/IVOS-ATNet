@@ -57,7 +57,7 @@ python3 setup.py install --user
 
 ### DAVIS2016 real-world evaluation GUI
 
-Multi-object GUI (for DAVIS2017) is available at our github page, [GUI-IVOS](https://github.com/yuk6heo/GUI-IVOS)
+Multi-object GUI (for DAVIS2017) is available at our github page, [[GUI-IVOS]](https://github.com/yuk6heo/GUI-IVOS)
 
 ## Reference
 
